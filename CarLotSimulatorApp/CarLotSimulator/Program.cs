@@ -36,7 +36,7 @@ namespace CarLotSimulator
             SportsFord.MakeHonkNoise();
             //*************BONUS*************//
             //Constructor initialization 
-            Car ColoradoCar = new Car("Subaru", "Forester", 2020, "Vram!", "BeeP!", "Will it drive?");
+            Car ColoradoCar = new Car("Subaru", "Forester", 2020, "Vram!", "BeeP!", true);
             Lot.CarList.Add(ColoradoCar);
 
             ColoradoCar.MakeEngineNoise();
